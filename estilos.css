@@ -1,0 +1,35 @@
+body {
+	 margin: 0;
+	 display: flex;
+	 font: 85%/1.1 Verdana, Arial, Helvetica, sans-serif;
+}
+video {
+	 position: fixed;
+	 min-width:100%;
+	 min-height:100%;
+
+	 top:50%;
+	 left:50%;
+	 transform:translateX(-50%) translateY(-50%);
+	 z-index:-1;
+	}
+
+main {
+	width:40%;
+	background: rgba(0,0,0,0.5);
+	color: #fff;
+	}
+
+footer
+{
+	text-align: center;
+	top: 90%;
+	position: absolute;
+		color: #fff;
+		background: rgba(0,0,0,0.5);
+}
+h1
+{
+ font-size: 48px;
+
+}
